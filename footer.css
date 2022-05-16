@@ -31,7 +31,7 @@ footer a {
 }
 
 .footer-right {
-    width: 50%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -45,9 +45,15 @@ footer a {
 
 .f-main-logo {
     width: 100%;
-    max-width: 200px;
+    max-width: 140px;
     height: auto;
     filter: brightness(0) invert(1);
+}
+
+@media (min-width: 768px) {
+    .f-main-logo {
+        max-width: 200px
+    }
 }
 
 
@@ -66,6 +72,12 @@ footer i {
     margin: 5px 0;
 }
 .f-nav-item a {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 5px 0;
+}
+
+@media (min-width: 768px) {
+    .f-nav-item a {
+        font-size: 1.2rem;
+    }
 }
