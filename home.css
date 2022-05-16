@@ -39,7 +39,7 @@
     bottom: 0;
     border-bottom: 100px solid var(--light-color);
     border-right: 50vw solid transparent;
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, .3));
+    filter: drop-shadow(25px 0 10px rgba(0, 0, 0, .3));
 }
 .rightAngle {
     position: absolute;
@@ -47,7 +47,7 @@
     bottom: 0;
     border-bottom: 100px solid var(--light-color);
     border-left: 50vw solid transparent;
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, .3));
+    filter: drop-shadow(-25px 0 10px rgba(0, 0, 0, .3));
 }
 
 @media (min-width: 768px) {
